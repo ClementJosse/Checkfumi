@@ -10,29 +10,46 @@
     <ImageView
         android:layout_width="218dp"
         android:layout_height="204dp"
+        android:contentDescription="@string/desc"
         android:src="@drawable/logo"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="154dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="72dp"
         android:contentDescription="@string/desc"
-        />
+        android:src="@drawable/info"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="521dp" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/play_button"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="407dp"
-        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:layout_width="66dp"
+        android:layout_height="71dp"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/param"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="521dp" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tutorial_button"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="474dp"
-        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:layout_width="234dp"
+        android:layout_height="163dp"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/jouer"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="172dp"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/tuto"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="387dp" />
 
 </android.support.constraint.ConstraintLayout>
