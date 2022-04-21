@@ -12,22 +12,26 @@
         android:src="@drawable/logo"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="154dp" />
+        tools:layout_editor_absoluteY="154dp"
+        android:contentDescription="@string/desc"
+        />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="@string/play_button"
         tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="432dp" />
+        tools:layout_editor_absoluteY="407dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="159dp"
-        tools:layout_editor_absoluteY="498dp" />
+        android:text="@string/tutorial_button"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="474dp"
+        tools:ignore="MissingConstraints" />
 
 </android.support.constraint.ConstraintLayout>

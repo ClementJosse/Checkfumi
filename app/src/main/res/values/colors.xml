@@ -10,4 +10,5 @@
     <color name="red">#A74245</color>
     <color name="azure">#31BBF4</color>
     <color name="dark_azure">#2A719B</color>
+    <color name="colorAccent">#252A4A</color>
 </resources>
