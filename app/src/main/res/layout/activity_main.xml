@@ -46,7 +46,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/choix"
+        android:id="@+id/jouer"
         android:layout_width="234dp"
         android:layout_height="163dp"
         android:layout_marginTop="292dp"
@@ -60,6 +60,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:id="@+id/tuto"
         android:layout_width="250dp"
         android:layout_height="172dp"
         android:clickable="true"

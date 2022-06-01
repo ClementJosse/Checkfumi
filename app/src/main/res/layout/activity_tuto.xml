@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_grey"
+        >
+
+        <ImageView
+            android:id="@+id/fleche"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/fleches"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:fontFamily="@font/helvetica"
+            android:lineSpacingExtra="10dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:text="Checkfumi est un jeu de réflexion opposant 2 joueurs sur un plateau de 6x6 cases.\nChaque joueur déplace à tour de rôle un de leur pions.\nLe but du jeu est d'éliminer tout un type de pions de l'adversaire parmis les pierres, feuilles et ciseaux."
+            android:textColor="@color/grey1"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/plateau"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="25dp"
+            />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
