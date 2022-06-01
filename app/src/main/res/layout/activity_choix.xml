@@ -10,31 +10,41 @@
     <ImageView
         android:layout_width="218dp"
         android:layout_height="204dp"
+        android:layout_marginTop="300dp"
         android:contentDescription="@string/desc"
         android:src="@drawable/classic"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="305dp" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:layout_width="218dp"
         android:layout_height="204dp"
+        android:layout_marginTop="300dp"
         android:contentDescription="@string/desc"
         android:src="@drawable/rapide"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="190dp"
-        tools:layout_editor_absoluteY="305dp" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:layout_width="279dp"
         android:layout_height="226dp"
+        android:layout_marginTop="84dp"
         android:contentDescription="@string/desc"
         android:src="@drawable/choix_du_mode"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="109dp" />
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:id="@+id/fleche"
         android:layout_width="81dp"
         android:layout_height="80dp"
         android:contentDescription="@string/desc"

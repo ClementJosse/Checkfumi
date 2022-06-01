@@ -8,19 +8,19 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ImageView play;
+    private ImageView choix;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        this.play = (ImageView) findViewById(R.id.play);
+        this.choix = (ImageView) findViewById(R.id.choix);
 
-        play.setOnClickListener(new View.OnClickListener() {
+        choix.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent otherActivity = new Intent(getApplicationContext(), Jeu.class);
+                Intent otherActivity = new Intent(getApplicationContext(), Choix.class);
                 startActivity(otherActivity);
                 finish();
 
