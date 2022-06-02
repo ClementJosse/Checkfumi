@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         choix.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent otherActivity = new Intent(getApplicationContext(), Choix.class);
+                Intent otherActivity = new Intent(getApplicationContext(), Jeu.class);
                 startActivity(otherActivity);
                 finish();
             }
