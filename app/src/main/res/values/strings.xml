@@ -3,4 +3,5 @@
     <string name="play_button">Jouer</string>
     <string name="tutorial_button">Tutoriel</string>
     <string name="desc">Logo</string>
+    <string name="tuto">Checkfumi est un jeu de réflexion opposant 2 joueurs sur un plateau de 6x6 cases.\nChaque joueur déplace à tour de rôle un de leur pions.\nLe but du jeu est d\'éliminer tout un type de pions de l\'adversaire parmis les pierres, feuilles et ciseaux.</string>
 </resources>

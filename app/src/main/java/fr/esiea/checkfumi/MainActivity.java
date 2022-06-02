@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         choix2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent otherActivity = new Intent(getApplicationContext(), Tuto.class);
+                Intent otherActivity = new Intent(getApplicationContext(), Tutoriel.class);
                 startActivity(otherActivity);
                 finish();
             }
