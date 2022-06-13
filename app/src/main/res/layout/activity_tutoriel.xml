@@ -16,7 +16,9 @@
             android:layout_height="65dp"
             android:layout_marginTop="10dp"
             android:layout_marginStart="10dp"
-            android:src="@drawable/fleches" />
+            android:src="@drawable/fleches"
+            android:contentDescription="@string/desc"
+            />
 
         <TextView
             android:layout_width="match_parent"
@@ -36,7 +38,7 @@
             android:src="@drawable/plateau_tuto"
             android:layout_marginStart="55dp"
             android:layout_marginTop="25dp"
-            />
+            android:contentDescription="@string/desc" />
 
 
     </LinearLayout>
